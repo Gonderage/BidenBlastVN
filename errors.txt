@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 15: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+        S "It's Joever, Biden, I have the Chaos Eemerlads
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Wed Apr  5 15:53:37 2023

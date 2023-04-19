@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 7, in script
+    J "It's never joever, no cap, brah"
+Exception: Sayer 'J' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 7, in script
+    J "It's never joever, no cap, brah"
+  File "/home/gonderage/Desktop/renpy-8.0.3-sdk/renpy/ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/home/gonderage/Desktop/renpy-8.0.3-sdk/renpy/ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'J' is not defined.
+
+Linux-5.4.0-146-generic-x86_64-with-glibc2.31 x86_64
+Ren'Py 8.0.3.22090809
+Project 1.0
+Wed Apr  5 14:56:10 2023
